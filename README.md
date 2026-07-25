@@ -1,36 +1,43 @@
-# StreamerBot Multi‑Platform Commands and Features
-A unified, C#‑powered command system designed to simplify your streaming setup and eliminate the need for multiple bots.
+# StreamerBot Multi‑Platform Commands & Features  
+A unified, C#‑powered command system built to keep your streaming setup clean, simple, and free from the chaos of running multiple bots.
 
 ## Summary  
-This project provides a growing collection of StreamerBot commands built to work across all platforms StreamerBot supports - with **Twitch** receiving the strongest support. Almost every command is written in **C#** to keep logic centralized, customizable, and easy to maintain. You can freely modify messages, behavior, and features directly in the code.
+Let's be honest - way too many people are out here juggling two, three, or five bots like they're training for a circus act. One bot has better features, another has easier setup, and meanwhile you're stressing about "making it big," "what commands you want," or whatever else is melting your brain.
 
-The goal is simple:  
+This project exists to fix that.
+
+I'm building a growing collection of StreamerBot commands that work across every platform StreamerBot supports — with **Twitch** being the one that actually shows up to work. Almost everything is written in **C#**, keeping the logic in one place so it's easier to maintain, easier to customize, and way cleaner than scattering sub‑actions everywhere. Want to change the language, behavior, or formatting? Crack open the code and make it yours.
+
+This started as a personal project for a friend, but I don't mind sharing it with everyone. Requests are welcome (no Discord), though not guaranteed. Credit is appreciated; repacking for resale is scummy.
+
 **One bot. One system. Less chaos.**
 
-Originally created as a personal project, it's now available for anyone who wants a cleaner, more unified command setup. Requests are welcome (no Discord), though not guaranteed. Credit is appreciated; repacking for resale is not.
-
 ## What's Included  
-A collection of commands such as:  
-- Entertainment (8ball, coin flip, dice, facts, dad jokes)  
-- Social (hug, slap, highfive, shoutout)  
-- User info (account age, account since, follow age, follow since)
-- Uptime
-- Watchtime tracking  
-- Twitch‑only ad warning + welcome‑back system  
+A growing set of commands, including:
+
+- 8ball, coin flip, dice, facts, dad jokes  
+- hug, slap, highfive, shoutout  
+- account age, account since, follow age, follow since  
+- uptime  
+- watchtime  
+- ad warning + welcome‑back system  
+
+Each command supports multiple aliases, optional variables, and plenty of customization through C#.
 
 ## Upcoming Features  
-Additional systems planned and under review, including:  
+Already in development and being polished before release:
+
 - Tag management  
 - Game/title updates  
 - Quotes  
 - Game history  
-- Duel & marriage commands  
-- More utility and fun interactions
+- Duel & marriage  
+- More utility and fun interactions  
 
 ## Download  
-StreamerBot‑formatted files are available here now.  
-No '.sb' extension required - drag and drop into StreamerBot's import box.  
+StreamerBot‑formatted files are available here.  
+No `.sb` extension required — just drag and drop into StreamerBot's import box.  
 Built on **StreamerBot 1.0.4**.
 
 ## Bugs & Feedback  
-Report them here!
+Report them here on GitHub — if you post them anywhere else, I'll probably miss them.
