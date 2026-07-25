@@ -1,4 +1,4 @@
-# StreamerBot Multi‑Platform Command Pack  
+# StreamerBot Multi‑Platform Commands and Features
 A unified, C#‑powered command system designed to simplify your streaming setup and eliminate the need for multiple bots.
 
 ## Summary  
