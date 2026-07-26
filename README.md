@@ -28,7 +28,6 @@ Each command supports multiple aliases, optional variables, and plenty of custom
 Already in development and being polished before release:
 
 - Tag management  
-- Game/title updates  
 - Quotes  
 - Game history  
 - Duel & marriage  
