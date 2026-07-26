@@ -1,4 +1,4 @@
-# Set Title and Set Game Commands  
+# Stream Management Commands  
 Commands that update the current stream title and game.  
 Supports all platforms StreamerBot supports.
 
