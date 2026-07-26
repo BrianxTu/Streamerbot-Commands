@@ -11,6 +11,7 @@ These commands are lightweight, easy to modify, and work across all platforms St
 - Dad Joke  
 - Dice Roll  
 - Fact  
+- Quote  
 
 Each command supports multiple aliases, optional variables, and full customization through C#.
 
@@ -81,3 +82,20 @@ Random trivia for chat engagement.
 Returns a random fact from a customizable list.
 
 ---
+
+## Quote  
+Add, remove, or display quotes.
+
+**Commands:**  
+`!quote`  
+`!quote <id>`  
+`!quote add <message>`  
+`!quote remove <id>`  
+`!quote delete <id>`  
+`!quote del <id>`
+
+**Description:**  
+- Using no arguments returns a random quote.  
+- Using an ID returns the quote with that ID.  
+- Using "add" followed by a message adds a new quote.  
+- Using "remove", "delete", or "del" followed by an ID removes the quote.
