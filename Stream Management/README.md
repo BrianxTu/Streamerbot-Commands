@@ -30,4 +30,4 @@ Updates the current game/category for the broadcaster.
 
 **Description:**  
 Sets the stream game or category to the text provided.
-Requires a game argument and CORRECT SPELLING.
+Requires the game argument and CORRECT SPELLING.
