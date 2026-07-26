@@ -6,7 +6,8 @@ Fully customizable through C# and works across all platforms StreamerBot support
 ---
 
 ## Command Included  
-- Watchtime
+- Watchtime  
+- Check-in
 
 ---
 
@@ -22,5 +23,25 @@ Returns the watchtime for the user or a specified target.
 Can be used with or without a target or leaderboard.
 
 **Notes:**  
-- Uptime is required for watchtime tracking
 - Leaderboard is optional and toggleable
+
+---
+
+## Check-in  
+Manually checks a user in for watchtime tracking.
+
+**Command:**  
+`!checkin`
+
+**Description:**  
+Forces a check-in for the user. 
+
+---
+
+## Handlers
+
+**Present Viewers Watchtime**  
+Tracks when a user joins or leaves, force starting or force saving when needed.
+
+**Offline Watchtime Cleanup**  
+Force saves remaining watchtime if the stream goes offline.
