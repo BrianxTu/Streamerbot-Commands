@@ -48,7 +48,19 @@ You can freely modify any message, limit, or behavior to match your stream's per
 
 ## **Requirements**
 - Streamer.bot  
-- Twitch / YouTube / Kick connections (depending on command)  
+- Twitch / YouTube / Kick connections (depending on command)
+- 
+---
+
+## **Upcoming**:
+I have a few things in the works and on the mind.
+- Game History Command
+- Duel System
+- Marriage System
+- Fishing System
+- (Custom Name) Random number mini-game with leaderboard and stealing. (I.e. "You found 25 flowers today" leaderboard "Name has 253 flowers" steal "You stole 24 of Name's 493 flowers")
+- Passive Moderation (Word List + Space/line catch + special character catch)
+- Viewer Point system (To include but not limited to, gambling, betting, raffle, giveaway, leaderboard)
 
 ---
 
