@@ -1,42 +1,61 @@
-# StreamerBot Multi‑Platform Commands & Features  
-A unified, C#‑powered command system built to keep your streaming setup clean, simple, and free from the chaos of running multiple bots.
+# **BrianTU's Streamer.bot Command Pack**
 
-## Summary  
-Let's be honest - way too many people are out here juggling two, three, or five bots like they're training for a circus act. One bot has better features, another has easier setup, and meanwhile you're stressing about "making it big," "what commands you want," or whatever else is melting your brain.
+A comprehensive collection of Streamer.bot commands, utilities, fun interactions, and automated systems designed to enhance Twitch, YouTube, and Kick livestreams.  
+This pack includes chat commands, moderator tools, passive systems, background trackers, and shared actions - most written in C# or wired through Streamer.bot.
 
-This project exists to fix that.
+Every command is self‑contained, customizable, and documented.
 
-I'm building a growing collection of StreamerBot commands that work across every platform StreamerBot supports — with **Twitch** being the one that actually shows up to work. Almost everything is written in **C#**, keeping the logic in one place so it's easier to maintain, easier to customize, and way cleaner than scattering sub‑actions everywhere. Want to change the language, behavior, or formatting? Crack open the code and make it yours.
+---
 
-This started as a personal project for a friend, but I don't mind sharing it with everyone. Requests are welcome (no Discord), though not guaranteed. Credit is appreciated; repacking for resale is scummy.
+## **Features Overview**
+- **!watchtime** - View your watchtime, someone else's, or the leaderboard.  
+- **!checkin** - Start tracking your active watchtime.  
+- **!uptime** - Display how long the stream has been live.  
+- **!settitle** - Update the stream title.  
+- **!setgame** - Update the stream category/game.  
+- **!title** - Show the current stream title.  
+- **!game** - Show the current stream category/game.
+- **!8ball** - Magic‑8‑Ball style responses.  
+- **!coinflip / !coin / !flip / !flipcoin** - Flip a virtual coin.  
+- **!dice / !roll / !rolldice / !diceroll** - Roll one or more dice.  
+- **!dadjoke** - Fetch and display a random dad joke.  
+- **!fact** - Fetch and display a random fact.
 
-**One bot. One system. Less chaos.**
+### **Quote System**
+A full quote manager supporting:
+- Random quote  
+- Quote by ID  
+- Add quote (mods only)  
+- Remove quote (mods only)
 
-## What's Included  
-A growing set of commands, including:
+### **Ad Systems (Twitch Only)**
+- **Ad Warning** - Passive timed warnings before ads begin.  
+- **Ad Message + Welcome Back** - Shared action that announces ad length, waits for the ad duration, then sends a welcome‑back message.
 
-- 8ball, coin flip, dice, facts, dad jokes  
-- hug, slap, highfive, shoutout  
-- account age, account since, follow age, follow since  
-- uptime  
-- watchtime  
-- ad warning + welcome‑back system  
+---
 
-Each command supports multiple aliases, optional variables, and plenty of customization through C#.
+## **Customization**
 
-## Upcoming Features  
-Already in development and being polished before release:
+All commands include:
+- Editable message templates  
+- Adjustable limits (dice count, watchtime leaderboard size, etc.)  
+- Optional formatting tweaks  
+- Platform‑specific routing
 
-- Tag management  
-- Quotes  
-- Game history  
-- Duel & marriage  
-- More utility and fun interactions  
+You can freely modify any message, limit, or behavior to match your stream's personality.
 
-## Download  
-StreamerBot‑formatted files are available here.  
-No `.sb` extension required — just drag and drop into StreamerBot's import box.  
-Built on **StreamerBot 1.0.4**.
+---
 
-## Bugs & Feedback  
-Report them here on GitHub — if you post them anywhere else, I'll probably miss them.
+## **Requirements**
+- Streamer.bot  
+- Twitch / YouTube / Kick connections (depending on command)  
+
+---
+
+## **Note**:
+As I am not a streamer, youtube functions remain un-tested. Kick and Twitch features are ensured to work with little to no issues.
+
+---
+
+## **👤 Author**
+**Made by BrianTU**
