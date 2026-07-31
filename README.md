@@ -8,8 +8,6 @@ Every command is self‑contained, customizable, and documented.
 ---
 
 ## **Features Overview**
-- **!watchtime** - View your watchtime, someone else's, or the leaderboard.  
-- **!checkin** - Start tracking your active watchtime.  
 - **!uptime** - Display how long the stream has been live.  
 - **!settitle** - Update the stream title.  
 - **!setgame** - Update the stream category/game.  
@@ -20,6 +18,15 @@ Every command is self‑contained, customizable, and documented.
 - **!dice / !roll / !rolldice / !diceroll** - Roll one or more dice.  
 - **!dadjoke** - Fetch and display a random dad joke.  
 - **!fact** - Fetch and display a random fact.
+
+### **Raffle System**
+- **!sraffle** - A full system raffle.
+- **!sjoin** - Join a raffle.
+- **!srafflestatus** - Check on a raffle.
+
+### **Watchtime System**
+- **!checkin** - Start tracking your active watchtime.  
+- **!watchtime** - View your watchtime, someone else's, or the leaderboard.  
 
 ### **Quote System**
 A full quote manager supporting:
@@ -49,7 +56,7 @@ You can freely modify any message, limit, or behavior to match your stream's per
 ## **Requirements**
 - Streamer.bot  
 - Twitch / YouTube / Kick connections (depending on command)
-- 
+
 ---
 
 ## **Upcoming**:
