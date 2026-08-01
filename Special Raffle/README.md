@@ -36,9 +36,9 @@ Aliases: `new`, `start`
 
 Starts a new raffle.
 
-- `allPlatforms` — `true/false` or `yes/no/1/0`  
-- `subOnly` — `true/false` or `yes/no/1/0`  
-- `prize` — any text (multi‑word supported)
+- `allPlatforms` - `true/false` or `yes/no/1/0`  
+- `subOnly` - `true/false` or `yes/no/1/0`  
+- `prize` - any text (multi‑word supported)
 
 Example:  
 `!sraffle create 1 0 End Stream Early`
@@ -71,7 +71,7 @@ Alias: `resume`
 
 Reopens a closed raffle.
 
-- `clearEntries` — `true/false` or `yes/no/1/0`  
+- `clearEntries` - `true/false` or `yes/no/1/0`  
   - `true` clears entries, join count, and winners  
   - `false` keeps everything
 
